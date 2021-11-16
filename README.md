@@ -61,4 +61,18 @@ Lista de comandos usados hasta ahora:
 
 ![imagen-1](./images/imagen-1.jpg)
 
-- `git remote add v0.2 git@github.com:kennycallado/DAWExamen1Eval..git`
+- `git add.`
+- `git commit -m "Commit en v0.2`
+
+### d:
+
+- `git checkout master`
+- `git merge v0.2 master`
+
+
+## Ejercicio 3.
+
+### a:
+
+- ``
+
