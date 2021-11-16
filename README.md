@@ -82,3 +82,21 @@ Actualizo remoto
 - `git add .`
 - `git commit -m "Agrega Hola al fichero 1.txt"`
 
+
+### b:
+
+- `git checkout v0.2`
+- `echo "Adiós" >> 1.txt`
+- `git add .`
+- `git commit -m "Agrega Adiós al fichero 1.txt"`
+
+### c:
+
+- `git checkout master`
+- `git merge v0.2 master`
+
+- Al realizar el merge me aparece un conflicto lo gestiono con el editor aceptando ambos.
+
+![imagen-2](./images/imagen-2.jpg)
+
+![imagen-3](./images/imagen-3.jpg)
