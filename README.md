@@ -69,10 +69,16 @@ Lista de comandos usados hasta ahora:
 - `git checkout master`
 - `git merge v0.2 master`
 
+Actualizo remoto
+
+- `git push origin master`
+
 
 ## Ejercicio 3.
 
 ### a:
 
-- ``
+- `echo "Hola" >> 1.txt`
+- `git add .`
+- `git commit -m "Agrega Hola al fichero 1.txt"`
 
