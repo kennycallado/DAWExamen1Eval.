@@ -95,8 +95,36 @@ Actualizo remoto
 - `git checkout master`
 - `git merge v0.2 master`
 
-- Al realizar el merge me aparece un conflicto lo gestiono con el editor aceptando ambos.
+Al realizar el merge me aparece un conflicto lo gestiono con el editor aceptando ambos.
 
 ![imagen-2](./images/imagen-2.jpg)
 
 ![imagen-3](./images/imagen-3.jpg)
+
+- `git add .`
+- `git commit -m "Integra la rama v0.2 en master"`
+
+También subo los cambios a remoto para quedarme tranquilo.
+
+- `git push origin master`
+
+## Ejercicio 4.
+
+### a:
+
+- `git log --all --decorate --oneline --graph`
+
+![imagen-4](./images/imagen-4.jpg)
+
+- `git log --all --decorate --oneline --no-merges --graph`
+
+![imagen-5](./images/imagen-5.jpg)
+
+### b:
+
+- `git tag v0.2`
+
+### c:
+
+- `git branch -D v0.2`
+
