@@ -36,3 +36,29 @@ Lista de comandos usados hasta ahora:
 ### g:
 
 - `git tag v1`
+
+### h:
+
+- `git add .`
+- `git commit "Final ejercicio 1`
+- `git push --tags origin master`
+
+## Ejercicio 2.
+
+### a:
+
+- `git branch v0.2`
+- `git checkout v0.2`
+
+### b:
+
+- `echo "16 de noviembre 2021 - 18:00" > 2.txt`
+
+
+### c:
+
+- Creo la rama en github:
+
+![imagen-1](./images/imagen-1.jpg)
+
+- `git remote add v0.2 git@github.com:kennycallado/DAWExamen1Eval..git`
